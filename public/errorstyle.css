@@ -1,0 +1,33 @@
+.col-md-6 {
+	text-align: center;
+	margin-top: 100px;
+}
+
+h1 {
+	font-size: 150px;
+	margin-bottom: -20px;
+}
+
+p {
+	font-size: 24px;
+}
+
+body {
+	background-color: rgba(253, 207, 207, 0.5);
+}
+
+.btn {
+	margin-top: 20px;
+	background: #FF3A3A;
+	color: white;
+	font-size: 20px !important;
+}
+
+.btn:hover {
+	background: #FF3030;
+	color: white;
+}
+
+@media (max-width:600px){
+	
+}

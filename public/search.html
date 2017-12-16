@@ -1,0 +1,41 @@
+<html>
+<head>
+	<title>Search</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" charset="utf-8"></script>
+	<script src="script3.js"></script>
+	<link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+	<div class='container'>
+		<div class="row top_nav">
+			<div class="col-md-10 col-md-offset-1 col-xs-12">
+				<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+					<a class="navbar-brand" href="#" id='homepage'>Профиль</a>
+					<a class="navbar-brand" href='#' id='exit' style="float: right;">Выход</a>
+				</nav>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12">
+				<h1 class="page-name">Поиск пользователей</h1>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-10 col-md-offset-1 notes col-xs-12'>
+				<div class='notes_head row'>
+					<div class="col-xs-9">
+						<input type='text' placeholder='Введите имя пользователя' id='search_text' autofocus></input>
+					</div>
+					<div class="col-xs-3">
+						<button type="button" class="btn" id='find'>Искать</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

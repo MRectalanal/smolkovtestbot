@@ -1,0 +1,309 @@
+.btn, .btn:focus {
+	background-color: #4683ea;
+	color: white;
+	/*font-size: 15px !important;*/
+}
+
+.btn:hover {
+	background-color: #4387fd;
+	color: white;
+}
+
+form {
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 25px;
+	background-color: white;
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,.075);
+}
+
+body {
+	background-color: rgba(239, 239, 239, 0.3);
+}
+
+#text {
+	text-align: center;
+	font-size: 20px;
+	background-color: white;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	padding: 25px;
+	box-shadow: 0px 0px 8px 0px rgba(0,0,0,.075);
+	margin-top: 15%;
+	margin-bottom: 15%;
+}
+
+#text > p {
+	margin-top: 15px;
+	margin-bottom: 35px;
+}
+
+.top-menu {
+	height: 70px;
+	padding-top: 10px;
+}
+
+.usernameField h1 {
+	font-size: 4em;
+}
+
+.notes {
+	font-size: 20px;
+	background-color: white;
+	border: 1px solid #ddd;
+	border-radius: 10px;
+	box-shadow: 0px 0px 10px 0px rgba(0,0,0,.1);
+	margin-bottom: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+}
+
+.notes:hover {
+	box-shadow: 0px 0px 5px 0px rgba(0,0,0,.2);
+}
+
+.notes > hr {
+	margin: 0px;
+}
+
+.notes > h1 {
+	text-align: center;
+}
+
+.notes_head {
+	padding: 20px 10px 20px 10px;
+}
+
+.notes_head > p {
+	text-align: center;
+}
+
+.note {
+	padding: 10px;
+}
+
+.note p{
+	word-wrap: break-word;
+}
+
+#note_add_text, #search_text {
+	max-width: 100%;
+	width: 100%;
+}
+
+#add, #find {
+	width: 100%;
+}
+
+#edit_note, #del_note {
+	width: 45%;
+}
+
+#del_note, #del_note:focus {
+	border: 1px solid #FF3A3A;
+	background-color: white;
+	color: black;
+	float: right;
+}
+
+#del_note:hover {
+	border: 1px solid #FF3030;
+	color: #FF3030;
+}
+
+#edit_note, #edit_note:focus {
+	border: 1px solid #4683ea;
+	background-color: white;
+	color: black;
+}
+
+#edit_note:hover {
+	border: 1px solid #4387fd;
+	color: #4387fd;
+}
+
+#note_edit_text {
+	width: 100%;
+	max-width: 100%;
+}
+
+.style_edit_note {
+	box-shadow: 0px 0px 20px 0px rgba(0,0,0,.5);
+	background-color: white;
+	padding: 10px;
+}
+
+#edit_cancel, #edit_save {
+	width: 45%;
+}
+
+#edit_cancel, #edit_cancel:focus {
+	background-color: #FF3A3A;
+	float: right;
+}
+
+#edit_cancel:hover {
+	background-color: #FF3030;
+}
+
+#edit_save {
+	margin-bottom: 5px;
+}
+
+#ava {
+	width: 100%;
+	border-radius: 15px;
+	min-width: 100px;
+}
+
+.page-head {
+	margin-bottom: 30px;
+}
+
+#bio, #bio_edit {
+	font-size: 18px;
+	color: #555;
+	min-height: 27px;
+	margin: 0px 5px 0px 0px;
+}
+
+
+#edit_bio {
+	border: none;
+	background-color: #00000000;
+	width: 20px;
+	padding: 0px;
+	margin-left: 10px;
+	display: none;
+	margin-bottom: 5px;
+}
+
+.page-name {
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 40px;
+}
+
+.note-date {
+	text-align: right;
+	right: 15px;
+	top: 0px;
+	font-size: 12px;
+	color: #999;
+}
+
+.waiting {
+	text-align: center;
+	margin-top: 10%;
+}
+
+.admin-options a:hover {
+	color: #FF3030;
+}
+
+@media (max-width:600px){
+	.usernameField h1 {
+		font-size: 40px;
+		margin: 0px;
+	}
+
+	.navbar-brand {
+		font-size: 17px;
+		padding: 15px 15px 0px 0px;
+	}
+
+	#bio {
+		font-size: 15px;
+		min-height: 0px;
+	}
+
+	.page-head {
+		margin-bottom: 10px;
+		margin-top: 20px;
+	}
+
+	.notes {
+		border-radius: 0px;
+		border-left: 0px;
+		border-right: 0px;
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.notes_head {
+		padding: 10px 0px;
+	}
+
+	#note_add_text, #search_text {
+		font-size: 15px;
+	}
+
+	#add, #edit_note, #del_note, #find {
+		padding: 3px 6px;
+		font-size: 13px;
+	}
+
+	.note {
+		padding: 10px 0px;
+	}
+
+	.note p {
+		font-size: 18px;
+	}
+
+	p.note-date {
+		font-size: 9px;
+	}
+
+	#edit_note, #del_note, #edit_cancel, #edit_save {
+		width: 100%;
+	}
+
+	#edit_note {
+		margin-bottom: 5px;
+	}
+
+	.page-name {
+		font-size: 29px;
+		margin: 0px 0px 15px 0px;
+		margin-top: 20px;
+	}
+
+	.guest {
+		font-size: 16px;
+		text-align: center;
+	}
+
+	.notes > h1 {
+		font-size: 25px;
+	}
+
+	.navbar {
+		margin-bottom: 0px;
+	}
+
+	.top_nav {
+		border-bottom: 1px solid #ddd;
+		box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.32);
+	}
+
+	.admin-options {
+		font-size: 12px;
+	}
+
+	#text {
+		text-align: center;
+		font-size: 17px;
+		background-color: rgba(239, 239, 239, 0.0);
+		border: 0px;
+		border-radius: 0px;
+		padding: 0px;
+		box-shadow: 0px 0px 0px 0px rgba(0,0,0,0);
+		margin-top: 50px;
+	}
+
+	#text > p {
+		margin-top: 0px;
+	}
+}

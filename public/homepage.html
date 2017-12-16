@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title>Homepage</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="socket.io.js"></script>
+    <script src="https://code.jquery.com/jquery-3.1.0.min.js" charset="utf-8"></script>
+	<script src="script2.js"></script>
+	<link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'>
+	<link rel='stylesheet' href='style.css'>
+</head>
+<body>
+	<div class='container'>
+		<div class="row top_nav">
+			<div class="col-md-10 col-md-offset-1 col-xs-12">
+				<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+					<a class="navbar-brand" href="#" id='search'>Поиск</a>
+					<a class="navbar-brand" href='#' id='exit' style="float: right;">Выход</a>
+				</nav>
+			</div>
+		</div>
+		<div class="row page-head">
+			<div class="col-md-2 col-md-offset-1 col-xs-4">
+				<img id="ava"/>
+			</div>
+			<div class="col-md-8 col-xs-8 usernameField">
+				<p id="bio"><button id="edit_bio"><img src="images/edit-btn.png"></button></p>
+			</div>
+		</div>
+		<div class='row'>
+			<div class='col-md-10 col-md-offset-1 col-xs-12 notes'>
+				<div class='notes_head row'>
+					<div class="col-md-9 col-xs-8">
+						<textarea placeholder='Введите текст заметки' id='note_add_text'></textarea>
+					</div>
+					<div class="col-md-3 col-xs-4">
+						<button type="button" class="btn" id='add'>Добавить</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
